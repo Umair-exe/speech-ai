@@ -55,9 +55,12 @@ coverage/
 *.onnx
 models/weights/
 
-# Uploads
-uploads/
-temp/
+# Uploads and generated files
+backend/uploads/
+backend/temp/
+backend/audio_outputs/
+backend/compressed/
+backend/translated_images/
 
 # Database
 *.db
